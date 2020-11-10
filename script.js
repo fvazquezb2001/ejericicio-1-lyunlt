@@ -80,7 +80,7 @@ var persona7 = {
 function filter(arrayUsuarios){ 
  let len=arrayUsuarios.length;
   for(let i=0;i<len;i++){
-    if(arrayUsuarios[i].money>200){
+    if(arrayUsuarios[i].money>200&&arrayUsuarios[i].country=='spain'){
       arrayFiltrado.push(arrayUsuarios[i]);
     }
   }
